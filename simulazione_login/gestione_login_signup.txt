@@ -1,0 +1,23 @@
+Abbiamo un file txt in cui ci sono gli utenti registrati al sito con username e password
+
+dal file dobbiamo prelevare la collezione di utenti (solo username) mettendola dentro una variabile
+
+il programma chiede all'utente se vuole fare login o signup
+
+terza opzione: modificare la password
+
+poi viene richiesto lo username e la password
+
+SE l'utente ha richiesto il login
+controllo la validità dello username: esiste nella collezione di utenti?
+- se esiste, controllare che la SUA password sia uguale a quella inserita
+    -se la password è corretta -> login autorizzato
+    -se la password è sbagliata -> eccezione "password non valida"
+- se non esiste, lanciare un'eccezione "user non valido"
+
+SE l'uente ha richiesto il signup
+controllo se lo username è già utilizzato: esiste nella collezione di utenti?
+- SE è un nuovo utente: aggiungere username e password all'elenco utenti e aggiornare il file
+- SE l'utente si è registrato in precedenza: lanciare un'eccezione "iscrizione non valida"
+
+-SE l'utente ha richiesto di modificare la password

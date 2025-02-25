@@ -1,2 +1,1 @@
-# python_projects
-Esercitazioni con python e relative librerie per analisi dei dati
+### Tutti gli esercizi in python sono qui!
